@@ -7,20 +7,20 @@ local Camera = workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
 
 local Config = {
-	Box = true,
+	Box = false,
 	BoxOutline = false,
 	BoxColor = Color3.fromRGB(255, 255, 255),
 	BoxOutlineColor = Color3.fromRGB(0, 0, 0),
-	HealthBar = true,
+	HealthBar = false,
 	HealthBarSide = "Left", -- Left, Bottom, Right
-	Names = true,
+	Names = false,
 	NamesOutline = true,
 	NamesColor = Color3.fromRGB(255, 255, 255),
 	NamesOutlineColor = Color3.fromRGB(0, 0, 0),
 	NamesFont = 2, -- 0,1,2,3
 	NamesSize = 13,
-	StudsText = true,
-	ToolText = true,
+	StudsText = false,
+	ToolText = false,
 }
 
 local function newText()
