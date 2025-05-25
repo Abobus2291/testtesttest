@@ -209,7 +209,6 @@ local function CreateEsp(Player)
 	end)
 end
 
--- Initialize for existing players
 for _, player in ipairs(Players:GetPlayers()) do
 	if player ~= LocalPlayer then
 		CreateEsp(player)
@@ -217,7 +216,6 @@ for _, player in ipairs(Players:GetPlayers()) do
 	end
 end
 
--- New players
 Players.PlayerAdded:Connect(function(player)
 	if player ~= LocalPlayer then
 		CreateEsp(player)
