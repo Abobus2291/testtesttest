@@ -8,7 +8,7 @@ local LocalPlayer = Players.LocalPlayer
 
 local Config = {
 	Box = false,
-	BoxOutline = false,
+	BoxOutline = true,
 	BoxColor = Color3.fromRGB(255, 255, 255),
 	BoxOutlineColor = Color3.fromRGB(0, 0, 0),
 	HealthBar = false,
